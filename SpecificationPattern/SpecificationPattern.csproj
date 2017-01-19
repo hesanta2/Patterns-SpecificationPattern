@@ -40,6 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NotSpecification .cs" />
+    <Compile Include="OrSpecification.cs" />
+    <Compile Include="AndSpecification.cs" />
+    <Compile Include="CompositeSpecification.cs" />
+    <Compile Include="ISpecification.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
