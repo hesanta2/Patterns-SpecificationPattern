@@ -22,7 +22,6 @@ namespace SpecificationPattern.App
             Car ferrariFormulaOne = new Car("Ferrari Formula One")
             {
                 Type = Car.CarType.Competition | Car.CarType.Sport,
-                Color = Color.Red,
                 MaxSpeed = 370,
                 Doors = 0
             };
@@ -30,7 +29,6 @@ namespace SpecificationPattern.App
             Car audiR8 = new Car("Audi R8")
             {
                 Type = Car.CarType.Sport,
-                Color = Color.Blue,
                 MaxSpeed = 335,
                 Doors = 2
             };
@@ -38,7 +36,6 @@ namespace SpecificationPattern.App
             Car seatLeon = new Car("Seat Leon")
             {
                 Type = Car.CarType.Normal,
-                Color = Color.Gray,
                 MaxSpeed = 220,
                 Doors = 5
             };

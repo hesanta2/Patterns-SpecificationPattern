@@ -13,7 +13,6 @@ namespace SpecificationPattern.App
         public enum CarType { Normal, Sport, Competition }
 
         public CarType Type { get; set; }
-        public Color Color { get; set; }
         public int Doors { get; set; }
         public int MaxSpeed { get; set; }
         public string Name { get; private set; }
@@ -22,7 +21,7 @@ namespace SpecificationPattern.App
 
         public override string ToString()
         {
-            return $"{this.Name}: [Type]{Type}, [Color]{Color}, [Doors]{Doors}, [MaxVelocity]{MaxSpeed}";
+            return $"{this.Name}: [Type]{Type}, [Doors]{Doors}, [MaxVelocity]{MaxSpeed}";
         }
     }
 }
